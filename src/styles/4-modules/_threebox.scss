@@ -1,0 +1,12 @@
+#three-boxes{
+	@include outer-container();
+	//@include span-columns(12);
+
+	div{
+		@include span-columns(4 of 12);
+		background:#ccc;
+		@include media($mobile) { // As defined in _grid-settings.scss
+	    @include span-columns(12 of 12);
+	  }
+	}
+}

@@ -1,0 +1,20 @@
+nav{
+	// background:darken($primary-color, 30%);
+	background:transparent;
+	position: fixed;
+	z-index: 10;
+	padding:20px;
+
+	#logo{
+		display: inline-flex;
+	}
+
+	ul{
+		display: inline-flex;
+    float: right;
+
+		li{
+			margin-left:20px;
+		}
+	}
+}
